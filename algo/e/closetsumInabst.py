@@ -6,24 +6,26 @@
 # given key and NULL left and right pointers.
 class node:
     # Constructor to create a new node
-    def __init__(self, data):
+    def __init__( self, data ):
         self.val = data
         self.left = None
         self.right = None
 
 def findclosest(node, target):
-    return recursefind(node, target, 100000000)
+    return recursefind(node, target, float("inf"))
 
-def recursefind(node, target, close = 0):
+def recursefind(node, target, close):
     if(node is None):
-        return None
-    close = target - node.val
-    if (target > abs(close)):  # contuine looking
-        return recursefind(node.right, target, close)
-    if(target < abs(close)):#contuine looking
+        return close
+    #if the diff between the last closest and the current is greater, update close to the currenrt
+    if(abs(target - close) > abs(target - node.val)):
+        close = node.val #need to find the diffrence either way
+    if(target < node.val):  # contuine looking
         return recursefind(node.left, target, close)
-    if (close == 0): return node.val
-    return close #return out closest possible updated diff
+    elif(target > node.val):#contuine looking
+        return recursefind(node.right, target, close)
+    else:
+        return close #return out closest possible updated diff
 
 
 # Recursive Python program to find key
@@ -44,4 +46,4 @@ if __name__ == '__main__':
     root.right.right = node(22)
     root.right.right.left = node(20)
     k = 18
-    print(findclosest(root, k))
+    print(findclosest(root, 18))
