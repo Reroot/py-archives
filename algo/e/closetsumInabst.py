@@ -25,14 +25,12 @@ def recursefind(node, target, close):
     elif(target > node.val):#contuine looking
         return recursefind(node.right, target, close)
     else:
-        return close #return out closest possible updated diff
+        return close
+        #return out closest possible updated diff
 
 
 # Recursive Python program to find key
 # closest to k in given Binary Search Tree.
-
-
-
 
 # Driver Code
 if __name__ == '__main__':
