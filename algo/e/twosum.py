@@ -9,3 +9,6 @@ def twosum(arr, target):
             #key is arr[i], and value is the index
 #map contains the comps, and the index as keys
 
+input_list = [2,8,12,15]
+print(twosum(input_list, 20))
+

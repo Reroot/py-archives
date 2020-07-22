@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a1df1ff-1ed3-4f44-8805-eec5218f8f4d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algo/e/validatesubsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/e/branchsum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/e/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algo/e/nodedepth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/algo/e/closetsumInabst.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/e/closetsumInabst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/e/fib.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/e/fib.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo/e/twosum.py" beforeDir="false" afterPath="$PROJECT_DIR$/algo/e/twosum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,19 +37,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/fib.py">
+        <entry file="file://$PROJECT_DIR$/algo/e/fib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="16" />
+            <state relative-caret-position="391">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/algo/e/fib.py">
+        <entry file="file://$PROJECT_DIR$/algo/e/nodedepth.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algo/e/branchsum.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algo/e/dfs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -62,17 +76,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algo/e/closetsumInabst.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="447">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algo/e/validatesubsequence.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -80,26 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algo/e/twosum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Tensorflow Basics Code/Node Types Part 1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tensorflow Basics Code/Node Types Part 1.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,11 +142,14 @@
         <option value="$PROJECT_DIR$/hello.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/fib.py" />
-        <option value="$PROJECT_DIR$/algo/e/fib.py" />
         <option value="$PROJECT_DIR$/algo/e/productsum.py" />
-        <option value="$PROJECT_DIR$/algo/e/twosum.py" />
-        <option value="$PROJECT_DIR$/algo/e/closetsumInabst.py" />
         <option value="$PROJECT_DIR$/algo/e/validatesubsequence.py" />
+        <option value="$PROJECT_DIR$/algo/e/twosum.py" />
+        <option value="$PROJECT_DIR$/algo/e/fib.py" />
+        <option value="$PROJECT_DIR$/algo/e/nodedepth.py" />
+        <option value="$PROJECT_DIR$/algo/e/branchsum.py" />
+        <option value="$PROJECT_DIR$/algo/e/closetsumInabst.py" />
+        <option value="$PROJECT_DIR$/algo/e/dfs.py" />
       </list>
     </option>
   </component>
@@ -248,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.validatesubsequence">
+  <component name="RunManager" selected="Python.dfs">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="py-algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,7 +292,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="fib (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py-algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -306,29 +305,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/e/fib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="true" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="fib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="py-algo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/fib.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/e/dfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="true" />
@@ -403,6 +380,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="twosum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py-algo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algo/e" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algo/e/twosum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="validatesubsequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py-algo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -428,19 +427,19 @@
     <list>
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.hello" />
-      <item itemvalue="Python.fib" />
-      <item itemvalue="Python.fib (1)" />
       <item itemvalue="Python.productsum" />
       <item itemvalue="Python.closetsumInabst" />
       <item itemvalue="Python.validatesubsequence" />
+      <item itemvalue="Python.twosum" />
+      <item itemvalue="Python.dfs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dfs" />
+        <item itemvalue="Python.twosum" />
         <item itemvalue="Python.validatesubsequence" />
         <item itemvalue="Python.closetsumInabst" />
         <item itemvalue="Python.productsum" />
-        <item itemvalue="Python.fib (1)" />
-        <item itemvalue="Python.fib" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +463,7 @@
       <workItem from="1595010549574" duration="2409000" />
       <workItem from="1595043759672" duration="11338000" />
       <workItem from="1595303557062" duration="58000" />
-      <workItem from="1595380245891" duration="2515000" />
+      <workItem from="1595380245891" duration="10264000" />
     </task>
     <task id="LOCAL-00001" summary="py-1">
       <created>1595102077352</created>
@@ -494,11 +493,25 @@
       <option name="project" value="LOCAL" />
       <updated>1595299521737</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="py-1">
+      <created>1595382967524</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595382967524</updated>
+    </task>
+    <task id="LOCAL-00006" summary="py-1">
+      <created>1595385264686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1595385264686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27660000" />
+    <option name="totallyTimeSpent" value="35409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,12 +526,12 @@
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.309628" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.309628" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329582" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32034633" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.32034633" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +539,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.34166667" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010941" side_tool="true" weight="0.32034633" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.21212122" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3290461" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -598,11 +611,13 @@
     <SUITE FILE_PATH="coverage/py_algo$closetsumInabst.coverage" NAME="closetsumInabst Coverage Results" MODIFIED="1595299467460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
     <SUITE FILE_PATH="coverage/py_algo$Node_Types_Part_1.coverage" NAME="Node Types Part 1 Coverage Results" MODIFIED="1594531732094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow Basics Code" />
     <SUITE FILE_PATH="coverage/py_algo$fib.coverage" NAME="fib Coverage Results" MODIFIED="1594685385343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/py_algo$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1595443175725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
     <SUITE FILE_PATH="coverage/py_algo$fib__1_.coverage" NAME="fib (1) Coverage Results" MODIFIED="1595014068948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
     <SUITE FILE_PATH="coverage/py_algo$Node_Types_Part_2.coverage" NAME="Node Types Part 2 Coverage Results" MODIFIED="1594446245305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorflow Basics Code" />
     <SUITE FILE_PATH="coverage/py_algo$productsum.coverage" NAME="productsum Coverage Results" MODIFIED="1595298921783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
+    <SUITE FILE_PATH="coverage/py_algo$twosum.coverage" NAME="twosum Coverage Results" MODIFIED="1595385350300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
     <SUITE FILE_PATH="coverage/py_algo$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1594446321324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/py_algo$validatesubsequence.coverage" NAME="validatesubsequence Coverage Results" MODIFIED="1595382957238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
+    <SUITE FILE_PATH="coverage/py_algo$validatesubsequence.coverage" NAME="validatesubsequence Coverage Results" MODIFIED="1595385345439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algo/e" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Tensorflow Basics Code/.idea/misc.xml">
@@ -656,27 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo/e/fib.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo/e/productsum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algo/e/twosum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/Tensorflow Basics Code/Node Types Part 1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -705,17 +699,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo/e/closetsumInabst.py">
+    <entry file="file://$PROJECT_DIR$/algo/e/validatesubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+        <state relative-caret-position="255">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algo/e/validatesubsequence.py">
+    <entry file="file://$PROJECT_DIR$/algo/e/twosum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/nodedepth.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/fib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/branchsum.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/closetsumInabst.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/productsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algo/e/dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>

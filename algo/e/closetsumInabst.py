@@ -1,37 +1,37 @@
 #find the closeest number in the bst to target
-#Given a binary search tree and a target node K. The task is to find the node with
+#Given a binary search tree and a target Node K. The task is to find the Node with
 #minimum absolute difference with given target value K.
 #define class,
-# Utility that allocates a new node with the
-# given key and NULL left and right pointers.
-class node:
-    # Constructor to create a new node
-    def __init__( self, data ):
-        self.val = data
-        self.left = None
-        self.right = None
 
-def findclosest(node, target):
-    return recursefind(node, target, float("inf"))
 
-def recursefind(node, target, close):
-    if(node is None):
+def findclosest(n, target):
+    return recursefind(n, target, float("inf"))
+
+def recursefind(n, target, close):
+    if(n is None):
         return close
     #if the diff between the last closest and the current is greater, update close to the currenrt
-    if(abs(target - close) > abs(target - node.val)):
-        close = node.val #need to find the diffrence either way
-    if(target < node.val):  # contuine looking
-        return recursefind(node.left, target, close)
-    elif(target > node.val):#contuine looking
-        return recursefind(node.right, target, close)
+    if(abs(target - close) > abs(target - n.val)):
+        close = n.val #need to find the diffrence either way
+    if(target < n.val):  # contuine looking
+        return recursefind(n.left, target, close)
+    elif(target > n.val):#contuine looking
+        return recursefind(n.right, target, close)
     else:
         return close
         #return out closest possible updated diff
 
-
 # Recursive Python program to find key
 # closest to k in given Binary Search Tree.
 
+# Utility that allocates a new Node with the
+# given key and NULL left and right pointers.
+class node:
+    # Constructor to create a new Node
+    def __init__(self, data):
+        self.val = data
+        self.left = None
+        self.right = None
 # Driver Code
 if __name__ == '__main__':
     root = node(9)
