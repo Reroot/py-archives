@@ -27,6 +27,18 @@ def sumOfEachNodeDepthFixed( node, nodeSumDepths = 0 ):
 def sumOfEachNodeDepthIterative(node):
     nodemap = {"node" : root, "depth" : 0}
     stack = [{"node" : root, "depth" : 0}]
+    depthSum = 0
+    while(len(stack) > 0):
+        nodeData = stack.pop()
+        currnode = nodeData["node"]
+        currdepth = nodeData["depth"]
+        if node is None:
+            continue
+        depthSum += currdepth
+        stack.append({ "node" : node.left, "depth" : depthSum + 1})
+        stack.append({"node": node.right, "depth": depthSum + 1})
+    return depthSum
+
 
 #version 2 - while, with map inside a stack containing the node and depth info
 
