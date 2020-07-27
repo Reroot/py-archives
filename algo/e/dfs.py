@@ -1,18 +1,30 @@
-def dfs(n):
-    if Node is None:
+def dfsRecursive(n):
+    if n is None:
         return Node
     # #preorder
     # print(n.val)
-    # dfs(n.left)
-    # dfs(n.right)
+    # dfsRecursive(n.left)
+    # dfsRecursive(n.right)
     # #inorder
-    # dfs(n.left)
+    # dfsRecursive(n.left)
     # print(n.val)
-    # dfs(n.right)
+    # dfsRecursive(n.right)
     # #postorder
-    dfs(n.left)
-    dfs(n.right)
+    dfsRecursive(n.left)
+    dfsRecursive(n.right)
     print(n.val)
+def dfsIterative(n):
+    if n is None:
+        return None
+    stack = []
+    stack.append(n)]
+    while stack is not None:
+        curr = stack.pop()
+        if(curr is not None):
+            curr = curr.left
+            stack.append(curr)
+        curr = curr.right
+        stack.append(curr)
 
 class Node:
     # Constructor to create a new Node
@@ -33,4 +45,4 @@ if __name__ == '__main__':
     root.right.right = Node(22)
     root.right.right.left = Node(20)
     k = 18
-    print(dfs(root))
+    print(dfsIterative(root))

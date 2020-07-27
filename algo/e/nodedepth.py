@@ -35,8 +35,8 @@ def sumOfEachNodeDepthIterative(node):
         if node is None:
             continue
         depthSum += currdepth
-        stack.append({ "node" : node.left, "depth" : depthSum + 1})
-        stack.append({"node": node.right, "depth": depthSum + 1})
+        stack.append({ "node" : currnode.left, "depth" : depthSum + 1})
+        stack.append({"node": currnode.right, "depth": depthSum + 1})
     return depthSum
 
 
