@@ -13,18 +13,38 @@ def dfsRecursive(n):
     dfsRecursive(n.left)
     dfsRecursive(n.right)
     print(n.val)
+
 def dfsIterative(n):
     if n is None:
         return None
     stack = []
-    stack.append(n)]
-    while stack is not None:
+    stack.append(n)
+    while stack:
         curr = stack.pop()
-        if(curr is not None):
+        if curr.left:
             curr = curr.left
             stack.append(curr)
-        curr = curr.right
-        stack.append(curr)
+        print(curr.val)
+        if curr.right:
+            curr = curr.right
+            stack.append(curr)
+
+# class Node:
+#     def __init__(self, val):
+#         self.val = val
+#         self.left = None
+#         self.right = None
+#
+# def dfs(root, val):
+#     stack = [root]
+#     while stack:
+#         node = stack.pop()
+#         if node.val == val:
+#             return node
+#         if node.left:
+#             stack.append(node.left)
+#         if node.right:
+#             stack.append(node.right)
 
 class Node:
     # Constructor to create a new Node
